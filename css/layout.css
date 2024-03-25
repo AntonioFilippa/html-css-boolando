@@ -1,0 +1,115 @@
+li{
+    list-style: none;
+    display: inline;
+    color: white;
+}
+header{
+    max-width: 100%;
+    background-color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 15px;
+    z-index: 1;
+    position: fixed;
+}
+.col33{
+    width: calc( 100% / 3 - 20px);
+    margin: 10px;
+   
+}
+.col-33{
+    width: calc( 100% / 3 - 20px);
+    margin: 10px;
+   
+}
+.v-center{
+    vertical-align: middle;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align:right;
+}
+
+.boolean-logo{
+    height: 30px;
+    width: 100px;
+}
+.position-fixed{
+    position: fixed;
+}
+.top-0{
+    top: 0px;
+}
+.left-0{
+    left: 0px;
+}
+.width-100{
+    width: 100%;
+}
+.height-50{
+    height: 50px;
+}
+.bg-orange{
+    background-color: orangered;
+}
+.py-20px{
+    padding: 20px;
+}
+
+.content img{
+    width: 100%;
+}
+.content{
+    position: relative;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-red{
+    background-color: red;
+}
+.etichette.bg-red {
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+}
+.etichette.bg-green {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+.etichette{
+    display: inline;
+    color: white;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prezzo-scontato{
+    color: red;
+}
+.prezzo-precedente{
+    text-decoration: line-through;
+}
+.likeblack{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: white;
+    padding:10px 15px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.likeblack:hover{
+    color: red;
+}
+.visibili:hover{
+    display: none;
+}
+.nonvisibili:hover {
+    display: table-cell;
+}
+  
+.nonvisibili{
+    display:none;
+}
