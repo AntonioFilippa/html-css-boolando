@@ -104,12 +104,17 @@ header{
     color: red;
 }
 .visibili:hover{
-    display: none;
-}
-.nonvisibili:hover {
-    display: table-cell;
-}
-  
+    opacity: 0;
+    }
+
 .nonvisibili{
     display:none;
+    position: absolute;
+    z-index: 3;
+}
+.visibili{
+    position: relative;
+}
+.visibili:hover{
+    display: inline;
 }
