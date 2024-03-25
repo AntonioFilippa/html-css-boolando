@@ -104,7 +104,7 @@ header{
     color: red;
 }
 .visibili:hover{
-    opacity: 0;
+    display: none;
     }
 
 .nonvisibili{
